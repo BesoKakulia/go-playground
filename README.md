@@ -12,7 +12,6 @@ When you have installed Encore, you can create a new Encore application and clon
 encore app create my-app-name --example=hello-world
 ```
 
-
 ## Running
 
 ```bash

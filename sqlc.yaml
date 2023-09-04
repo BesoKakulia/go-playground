@@ -1,0 +1,10 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: "task-app/service/queries"
+    schema: "task-app/service/migrations"
+    gen:
+      go:
+        package: "store"
+        out: "task-app/service/store"
+        emit_interface: true
